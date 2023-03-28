@@ -10,8 +10,8 @@ and uses the Enigma class to encrypt or decrypt.
 
 public class Comms {
   /// Takes a number of initialization variables, an encrypt or decrypt
-  /// argument and some text (assumed to be plain text with the encrypt or
-  /// cypher text with the decrypt argument) and encrypts or decrypts the
+  /// argument and some text (assumed to be plaintext with the encrypt or
+  /// ciphertext with the decrypt argument) and encrypts or decrypts the
   /// message
   /// @param args[0], an int selecting which inner rotor to use
   /// @param args[1], an int selecting which middle rotor to use

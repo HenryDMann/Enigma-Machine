@@ -30,9 +30,9 @@ public class Enigma{
         rotors[2] = new Rotor(rotorInit[id3-1], start.charAt(2));
     }
 
-    /// This function converts cypher text to plain text
-    /// @param message, a string with the cypher text
-    /// @return the plain text message
+    /// This function converts ciphertext to plaintext
+    /// @param message, a string with the ciphertext
+    /// @return the plaintext message
     public String decrypt(String message){   
         // Convert the message to an array of chars     
         char[] mArray = message.toCharArray();
@@ -62,9 +62,9 @@ public class Enigma{
         return output;
     }
 
-    /// This function converts plain text to cypher text
-    /// @param message, a string with the cypher text
-    /// @return the plain text message
+    /// This function converts plaintext to ciphertext
+    /// @param message, a string with the ciphertext
+    /// @return the plaintext message
     public String encrypt(String message){
         // Convert the message to an array of chars
         char[] mArray = message.toCharArray();
